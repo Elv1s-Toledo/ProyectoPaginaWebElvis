@@ -1,0 +1,38 @@
+.menuCabecera{
+background-color: #BE1622;
+width: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    width: 100%;
+    height: 120px;
+    background-color:#1d70b8 ;
+}
+.marcoColumnas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.columna{
+    flex: 1;
+    background-color: aquamarine;
+    border: 1px solid #5396d1;
+}
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color:#1db832 ;
+}
+.colorGris{
+    background-color:grey;
+}
+.colorRojo{
+    background-color: red;
+}
+.colorAzul{
+    background-color: blue;
+}
