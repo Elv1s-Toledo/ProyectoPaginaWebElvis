@@ -12,12 +12,15 @@ width: 100%;
     background-image: url("../imagenes/escritorio-madera-libros-manzana_23-2147849980.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: 80%;
 }
 .marcoColumnas{
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
+}
+.marcoColumnas img{width: 100%;
 }
 .columna{
     flex: 1;
@@ -57,4 +60,17 @@ li a:hover{
 }
 .listamenu li:last-child{
     border-right: none;
+}
+.formulario{
+    width: 50%;
+    padding: 10px;
+}
+input textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 50%;
+    margin: 10px;
 }
