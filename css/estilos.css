@@ -30,16 +30,16 @@ width: 100%;
 .footer{
     width: 100%;
     height: 120px;
-    background-color:#1db832 ;
+    background-color:#1da1b8 ;
 }
 .colorGris{
-    background-color:grey;
+    background-color:rgb(224, 186, 143);
 }
 .colorRojo{
-    background-color: red;
+    background-color: rgb(114, 114, 114);
 }
 .colorAzul{
-    background-color: blue;
+    background-color: rgb(218, 241, 255);
 }
 .listamenu li{
     display: inline;
@@ -56,21 +56,48 @@ li a{
     text-decoration: none;
 }
 li a:hover{
-    color: #E2430c; background: rgb(255, 255, 123);
+    color: #E2430c; 
 }
 .listamenu li:last-child{
     border-right: none;
 }
 .formulario{
-    width: 50%;
+    width: 100%;
     padding: 10px;
 }
-input textarea{
-    width: 100%;
-    border-radius: 5px;
+form{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
 }
-
-textarea{
-    width: 50%;
+input[type=text]{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
     margin: 10px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+}
+input[type= submit]{
+    padding: 5px;
+    background: rgb(20,140,30,0.5);
+    width: 100%;
+    margin: auto;
+}
+input[type=submit]:hover{
+    background-color: rgb(20,140,30);
+    cursor: pointer;
+}
+li a img{
+    width: 28px;
+}
+li a img:hover{
+    background-color: none;
+    opacity: 30%;
+}
+.derechos{
+    padding: 15px;
 }
